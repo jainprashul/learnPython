@@ -1,0 +1,7 @@
+We can repeat commands also by enclosing them into "while" loop. We use
+condition to determine when the loop should stop. For such condition let's
+call "look_ahead()" function and test there is no wall.<br/>
+The "while" loop repeats while condition is true. Symbol '!=' is "not equals"
+so the whole condition reads "while look_ahead not equals wall".
+<br/><br/>
+Take care of correct syntax, please! Computers do not like typos!

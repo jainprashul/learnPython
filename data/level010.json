@@ -1,0 +1,17 @@
+{
+    "title":"Last round",
+    "prev":"009",
+    "next":null,
+    "width":9,
+    "height":11,
+    "stars":[  
+        {"x":4, "y":5}
+    ],
+    "walls":[
+        {"x":3, "y":5, "len":1},
+        {"x":5, "y":5, "len":1},
+        {"x":3, "y":4, "len":3},
+        {"x":3, "y":6, "len":3}
+    ],
+    "tank":{"x":1, "y":0}
+}

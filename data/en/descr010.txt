@@ -1,0 +1,3 @@
+Thanks a lot for getting that far!<br/>
+Now the star is behind the wall and we can't get it without shooting.<br/>
+I hope to implement this new functionality in a few days...

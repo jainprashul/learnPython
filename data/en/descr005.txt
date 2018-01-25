@@ -1,0 +1,3 @@
+Again we need to reach the star - but it is not directly in our way - and there are
+obstacles!<br/>
+Remember "right()" and "left()" commands? Let us use them wisely!

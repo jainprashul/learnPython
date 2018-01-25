@@ -1,0 +1,5 @@
+Look below! Here is a game field with the tank (on the right), and the place to write
+our program (on the left).
+We can read some instructions there, in the lines starting with '#' - they are ignored.<br/>
+Try the "Run" button, then copy-paste the single command of our program several times
+and try again. (important - place each command at the beginning of the separate line)

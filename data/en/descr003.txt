@@ -1,0 +1,4 @@
+The goal of most rounds is to collect stars on the field. We use "pick()" command for this.
+Of course tank should be driven over the star first. We get error if there is no star to pick,
+or if not all stars are picked at the end.
+

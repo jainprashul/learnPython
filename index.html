@@ -1,0 +1,126 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./libs/bs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./libs/bs/bootstrap-theme.min.css"/>
+    <style type="text/css" media="screen">
+        body {
+            font-size: 14px;
+        }
+        #editor { 
+            width: 100%;
+            height: 600px;
+            border: 1px solid #aaa;
+        }
+        #gamescreen {
+            background: #aaa;
+            padding: 5px 0px;
+        }
+        #gamescreen canvas {
+            border: 1px solid #555;
+            margin: 0px auto;
+        }
+        #output pre {
+            height: 150px;
+            overflow: scroll;
+        }
+        .container {
+            width: auto;
+            max-width: 1300px !important;
+        }
+        .spacing-before {
+            margin-top: 10px;
+        }
+        .navbar {
+            background-image: linear-gradient(0deg, #bbb, #fff);
+            font-size: 125%;
+        }
+        .navbar a:hover {
+            background-image: linear-gradient(0deg, #bbb, #888);
+            color: yellow;
+        }
+        .navbar .home-link {
+            font-weight: bold;
+        }
+        h1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 150%;
+        }
+    </style>
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/bs/bootstrap.min.js"></script>
+    <script src="./libs/brython.js"></script>
+    <script src="./libs/phaser.js"></script>
+    <script src="./libs/ace/ace.js" type="text/javascript"></script>
+    <script src="./data/game01.js" type="text/javascript"></script>
+</head>
+<body>
+    
+<nav class="header navbar">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li><a href="./index.html" class="home-link">PyTanks</a></li>
+            <li><a href="#" onclick="alert('Sorry, this is just a prototype!')">Login</a></li>
+        </ul>
+</nav>
+
+<div class="container">
+    <div id="upper-pane" class="row">
+        <div id="info-pane" class="col-xs-8">
+            <div id="text-pane">
+                <h1>Python Tanks</h1>
+                <div id="statement-pane" class="spacing-before">Lorem Ipsum Dolorum</div>
+            </div>
+            <div id="controls-pane" class="spacing-before">
+                <span class="col-xs-2">
+                    <button id="run-button" class="btn btn-default col-xs-12">
+                        <span class="glyphicon glyphicon-play"></span>
+                        Run
+                    </button>
+                </span>
+                <span class="col-xs-2">
+                    <button id="reset-button" class="btn btn-default col-xs-12">
+                        <span class="glyphicon glyphicon-backward"></span>
+                        Reset
+                    </button>
+                </span>
+                <span class="col-xs-3">
+                    <select id="level-select" class="form-control">
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                        <option value="3">Level 3</option>
+                        <option value="4">Level 4</option>
+                        <option value="5">Level 5</option>
+                        <option value="6">Level 6</option>
+                        <option value="7">Level 7</option>
+                        <option value="8">Level 8</option>
+                        <option value="9">Level 9</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div id="ads-pane" class="col-xs-4">
+            <a href="http://pytanks.org">New Version - welcome to Pytanks</a>
+        </div>
+    </div>
+    <div id="main-pane" class="row spacing-before">
+        <div id="code-pane" class="col-xs-6">
+            <div id="editor"></div>
+        </div>
+        <div id="game-pane" class="col-xs-6">
+            <div id="gamescreen"></div>
+            <div id="output" class="spacing-before">
+                <pre id="output-pre"></pre>
+            </div>
+        </div>
+    </div>
+</div>    
+
+<script src="main.js"></script>
+<script type="text/python" src="runner.py"></script>
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-80545090-1', 'auto');ga('send', 'pageview');</script>
+
+</body>
+</html>
+

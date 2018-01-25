@@ -1,0 +1,8 @@
+Let us try another instructions - for rotating tank left and right.
+Try to "Run" it and then add more commands to move it further
+and also to rotate it right (perhaps few times).<br/>
+Regard the rules:<br/>
+- place each command on separate line<br/>
+- start each command at the beginning of line<br/>
+- do not do typos and do not forget parentheses.
+

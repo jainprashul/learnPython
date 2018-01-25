@@ -1,0 +1,7 @@
+Another useful structure is "if". It works similar to "while", but the commands inside
+are executed only once, if the condition is correct.<br/>
+We also can put "whiles" and "ifs" inside each other (adding 4 spaces to indentation
+each time).<br/>
+In this exercise we use "if" to check with the help of call to "look_below()" function
+if there is a star under the tank, so we can collect it. Note the '==' operator which
+means "equals". So the condition is "if look_below equals star"...

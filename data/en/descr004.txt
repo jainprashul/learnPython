@@ -1,0 +1,4 @@
+The first challenge!<br/>
+The code below needs to be fixed so that tank can get over the star
+before picking it!<br/>Good luck - for I hope it would not be hard!
+

@@ -1,0 +1,9 @@
+Sometimes we want to group several commands into one block and
+reuse it again. One of the recipes for this is to put them into "function".
+Note the syntax in the example below:<br/>
+- we start with "def" keyword<br/>
+- we put parentheses after function name (which could be any) and a colon<br/>
+- then we put commands into its "body", indenting them with 4 spaces from line start
+<br/><br>
+To call this function we put it in our program just as any other command
+(they are functions also, by the way). Do not forget parentheses.

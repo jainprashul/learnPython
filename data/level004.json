@@ -1,0 +1,17 @@
+{
+    "title":"Running straight",
+    "prev":"003",
+    "next":"005",
+    "width":7,
+    "height":11,
+    "stars":[  
+        {"x":3, "y":6}
+    ],
+    "walls":[
+        {"x":0, "y":0, "len":7},
+        {"x":0, "y":10, "len":7},
+        {"x":6, "y":9,  "len":1},
+        {"x":0, "y":9,  "len":1}
+    ],
+    "tank":{"x":3, "y":1}
+}

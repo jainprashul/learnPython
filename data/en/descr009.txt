@@ -1,0 +1,8 @@
+This is a puzzle!<br/><br/>
+
+There are several stars, seemingly placed in chaos - however we can find
+a simple rule which allows to collect them with very simple code.<br/><br/>
+
+Note we also introduce "for .. in" loop here which in combination with "range(x)"
+function makes the program repeat actions exactly "x" times.
+

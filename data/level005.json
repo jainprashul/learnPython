@@ -1,0 +1,15 @@
+{
+    "title":"Turning on a winding path",
+    "prev":"004",
+    "next":"006",
+    "width":8,
+    "height":11,
+    "stars":[  
+        {"x":5, "y":8}
+    ],
+    "walls":[
+        {"x":0, "y":6, "len":5},
+        {"x":3, "y":3, "len":5}
+    ],
+    "tank":{"x":2, "y":1}
+}

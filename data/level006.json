@@ -1,0 +1,19 @@
+{
+    "title":"Repeat it with your own functions",
+    "prev":"005",
+    "next":"007",
+    "width":8,
+    "height":11,
+    "stars":[
+        {"x":1, "y":7},
+        {"x":6, "y":7},
+        {"x":6, "y":2}
+    ],
+    "walls":[
+        {"x":2, "y":4, "len":4},
+        {"x":2, "y":5, "len":4},
+        {"x":3, "y":3, "len":2},
+        {"x":3, "y":6, "len":2}
+    ],
+    "tank":{"x":1, "y":2}
+}

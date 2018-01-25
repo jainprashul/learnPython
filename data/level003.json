@@ -1,0 +1,16 @@
+{
+    "title":"Intro #3 - picking the stars",
+    "prev":"002",
+    "next":"004",
+    "width":7,
+    "height":11,
+    "stars":[  
+        {"x":3, "y":4}
+    ],
+    "walls":[
+        {"x":0, "y":0, "len":2},
+        {"x":5, "y":0, "len":2},
+        {"x":1, "y":10,  "len":5}
+    ],
+    "tank":{"x":3, "y":3}
+}
